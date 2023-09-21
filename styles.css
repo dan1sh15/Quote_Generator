@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -15,6 +17,10 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color1);
+}
+
+#quote{
+    font-family: 'Dosis', sans-serif;
 }
 
 #quote-box{
@@ -78,7 +84,7 @@
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     #quote-box{
         width: 70%;
     }
